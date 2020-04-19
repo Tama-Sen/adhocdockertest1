@@ -1,0 +1,34 @@
+TASK 1
+THE SOLUTION IS:
+make a docker file from alpine
+maintainer tanusha 
+cmd date "+%T"
+
+build image with tag
+go to the directory where docker file is present and use the run command
+docker build -t alpine:tanusha
+
+running the container
+in powershell
+docker run --name ashuc1q1 -it --rm
+alpine:tanusha > que1.txt
+the output will be stored in the file que1.txt
+
+TASK 2
+THE SOLUTION IS: 
+building image
+docker build-t adhoc: tanusha
+https://github.com/redashu/summer2020docker test.git
+
+tagging it
+docker tag adhoc:tanusha
+tanusha05/adhoc:tanusha05
+
+login
+docker login
+
+to push the image
+docker push
+docker push tanusha05/ adhoc:tanusha
+
+
